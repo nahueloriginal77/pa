@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    background-image: url(fondo3.jpg);
+}
+    
+.meme {
+    width: 30%;
+    flex-wrap: wrap;
+   /* margin: auto;
+    display: block;*/
+}
+h1, h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blue;
+    flex-wrap: wrap;
+    font-weight: 100;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+}
+.berserk{
+    width: 30%;
+    margin: auto;
+    display: block;
+    flex-wrap: wrap;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+.rec {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.col{
+    flex: 25%;
+    padding: 5px;
+}
+.col img{
+    margin-top: 5px;
+}
+@media (max-width: 600px){
+    .col{
+        flex:100%;
+    }
+}
+@media (max-width: 800px){
+    .col{
+        flex: 50%;
+    }
+}
